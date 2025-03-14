@@ -457,7 +457,7 @@ class SearchClient:
 				raise ValueError(f'GET parameter "{builtin_param}" is overlapping with the built-in GET parameter')
 
 		# Simulates browsing to the https://www.google.com home page and retrieving the initial cookie.
-		html = self.get_page(self.url_home)
+		# html = self.get_page(self.url_home)
 
 		# Loop until we reach the maximum result results found or there are no more search results found to reach
 		# max_search_result_urls_to_return.
